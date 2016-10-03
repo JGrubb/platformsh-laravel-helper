@@ -1,0 +1,13 @@
+{
+  "name": "JGrubb/platformsh-laravel-helper",
+  "description": "A small helper to make setting up a Laravel app on Platform.sh as seamless as possible.",
+  "require": {
+    "php": ">=5.4",
+    "platformsh/config-reader": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Platformsh\\LaravelHelper\\": "src"
+    }
+  }
+}
